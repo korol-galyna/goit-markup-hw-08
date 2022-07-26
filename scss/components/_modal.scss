@@ -1,0 +1,221 @@
+.modal {
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 528px;
+    min-height: 581px;
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    }
+
+
+.button-modal {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    top: 8px;
+    right: 8px;
+    position: absolute;
+}
+
+.button-modal__close-svg:focus,
+.button-modal__close-svg:hover {
+    fill: var(--blue-color);
+}
+
+.modal__header {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top:40px; 
+    margin-bottom: 12px;
+    }
+
+
+/**Forms**/
+
+.forms {
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .form-modal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    } 
+
+.form-modal-comments {
+       display: flex;
+       flex-direction: column;
+       position: relative;
+      
+
+    &:focus {
+    border: 1px solid var(--blue-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+} 
+
+.form-modal__input-form {
+    outline: 0;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 42px;
+    height: 40px;
+   
+  
+    &:focus {
+    border: 1px solid var(--blue-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+
+    &:focus + .form-modal__modal-svg {
+    fill: var(--blue-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+    
+}
+
+
+.form-modal__modal-svg {
+    position: absolute;
+    outline: 0;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+    
+.form-modal__input-svg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; 
+    }
+
+
+.form-modal__label,
+.form-modal-comments__label {
+    text-align: left;
+    margin-bottom: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--text-color);
+    
+}
+
+/**Form comment**/
+
+.form-modal-comments__text {
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    height: 120px;
+    margin-bottom: 20px;
+
+
+    &:focus {
+    outline: 0;
+    border: 1px solid var(--blue-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   }
+
+    &::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+    top: 0px;
+    left: 0px;
+}
+
+}
+
+/**Form terms**/
+
+.form-modal-terms {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: var(--text-color);
+   margin-bottom: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.form-modal-terms__contract {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color:var(--blue-color);
+    margin-left: 5px;
+}
+
+
+.form-modal-terms__checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+
+    &:checked + .form-modal-terms__icon {
+    border-color: var(--blue-color);
+    background-color: var(--blue-color);
+    background-image: url(../images/img.svg/img6.svg);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    } 
+
+} 
+
+  .form-modal-terms__icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--black-color);
+    border-radius: 2px;
+    margin-right: 8.38px;   
+}  
+
+.form-modal-terms__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms .button-primary {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
