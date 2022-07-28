@@ -1,10 +1,17 @@
 .clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
+@media (min-width: 480px){ 
+    .clients {
+    width: 480px;
+          }}
+
 
 .clients-list {
     display: inline-flex;
+    flex-wrap: wrap;
     text-decoration: none;
     list-style: none; 
     margin: 0px;
@@ -18,15 +25,22 @@
     list-style: none;    
 
 
-    &:not(:last-child) {
-    margin-right:30px;
+    &:nth-child(-n+4) {
+        margin-bottom: 30px;
+    }
+
+    &:nth-child(2n+1) {
+     margin-right: 30px;
+    }
 }
 
-}
+
+
+
 
 .clients-list__link {
     fill: #AFB1B8;
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;  
