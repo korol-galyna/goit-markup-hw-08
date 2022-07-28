@@ -1,27 +1,33 @@
   
   .features {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .features-list {
     margin-top: 0px;
     margin-bottom: 0px; 
     padding-left: 0px;
-    display: flex;
+    // display: flex;
     text-decoration: none;
     list-style: none;
+    
 }
 
 .features-list__item {
-    width: 270px;
-
+    width: 450px;   
+    margin-left: auto;
+    margin-right: auto;
+    
 
     &:not(:last-child) {
-    margin-right: 30px;
+    margin-bottom: 30px;
     }
 
-}
+
+    & .third-title {
+        text-align: center;
+}}
 
 .features-list__text {
     margin-top: 0px;
@@ -34,7 +40,7 @@
 
 .features-list__icon {
     margin-bottom: 30px;
-    width: 270px;
+    width: 450px;
     height: 120px;
     background-color:var(--bg-color-second);
     padding: 25px 100px;  

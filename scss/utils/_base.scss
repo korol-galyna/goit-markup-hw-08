@@ -11,12 +11,24 @@ body {
       margin-right:auto;
       padding-left:15px;
       padding-right:15px;
-      width:1200px;
-      margin-top:0px;
-  
 
-    &--style {
-    display: flex;
-}
+
+//     &--style {
+//     display: flex;
+// }
+
+// @media screen and (min-width: 480px) {
+//   width: 480px;
+  
+// }
+
+// @media screen and (min-width: 768px) {
+//   width: 768px; 
+// }
+
+
+// @media screen and (min-width: 1200px ) {
+//   width: 1600px;
+// }
 
 }

@@ -1,10 +1,13 @@
   
 .hero-overlay {
-    padding-bottom:200px;
-    padding-top:200px;
+    min-height: 400px;
+    padding-bottom:118px;
+    padding-top:118px;
+
+    // padding-bottom:200px;
+    // padding-top:200px;
     text-align: center;
-    max-width: 1600px;
-    height: 600px;
+    // height: 1600px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(
@@ -18,19 +21,24 @@
     background-size: cover;
 }
 
+@media (min-width: 480px){ 
+    .hero-overlay {
+    width: 480px;
+          }}
+
 .first-title {
     margin-top: 0px;
     margin-bottom: 30px;
     margin-left:auto;
     margin-right:auto;
-    width:696px;
-
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.62;
     letter-spacing: 0.06em;
     text-align: center;
-}
     
+}
+    /**Mobile**/
+
