@@ -2,8 +2,10 @@
     display: flex;
     text-decoration: none;
     list-style: none; 
-    padding-left: 32px;
-    padding-right: 32px;
+    justify-content: center;
+    
+    padding-left: 0px;
+    padding-right: 0px;
     
 
     
@@ -18,7 +20,7 @@
 }
 
 .social-list__item:not(:last-child) {
-        margin-right:10px;
+        margin-right: 10px;
     }
 
 

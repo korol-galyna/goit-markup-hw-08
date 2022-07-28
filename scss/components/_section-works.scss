@@ -1,6 +1,15 @@
 .works {
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+
+
+.works {
     padding-bottom: 94px;
 }
+
 
 .works__list {
     display: flex;
