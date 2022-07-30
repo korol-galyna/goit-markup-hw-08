@@ -1,13 +1,21 @@
 .header {
-    border-bottom: 1px solid #ECECEC;
-    display: none; 
+    border-bottom: 1px solid #ECECEC; 
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
+@media (min-width: 480px){ 
+    .header .conteiner{
+    width: 480px;
+          }}
 
 .header-nav {
     display: flex;
     align-items: center;
 }
+
+
+
 
 /**navigation*/
 
@@ -17,6 +25,11 @@
     list-style: none;
     padding-left: 0px;      
 }
+
+@media (min-width: 480px){ 
+    .header-nav__list {
+    display: none;
+          }}
 
 
 .header-nav__link {
@@ -116,6 +129,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+@media (min-width: 480px){ 
+    .header-contact {
+    display: none;
+          }}
+
 
 .header-contact__item {
     padding-top: 32px;
