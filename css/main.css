@@ -85,24 +85,16 @@ body {
   margin-bottom: 20px;
 }
 
+/* Base container and element styles for mobile devices */
 .logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   color: var(--blue-color);
-}
-.logo--footer-style {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 20px;
-  margin-right: 0px;
 }
 
 .logo__studio {
@@ -209,6 +201,10 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+.social-list--footer {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
 
 .social-list__item:not(:last-child) {
   margin-right: 10px;
@@ -276,8 +272,8 @@ body {
 .footer-address__list {
   list-style: none;
   padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .footer-address {
@@ -305,7 +301,7 @@ body {
 }
 
 .footer-address_item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .footer .conteiner {
@@ -324,7 +320,8 @@ body {
 }
 
 .form-footer__input {
-  width: 358px;
+  margin-bottom: 20px;
+  width: 450px;
   height: 50px;
   margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
