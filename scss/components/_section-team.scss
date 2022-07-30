@@ -1,3 +1,4 @@
+/* Base container and element styles for mobile devices */
 .team {
     background-color: var(--bg-color-second);
     padding-bottom: 60px;
@@ -5,7 +6,7 @@
 }
 
 @media (min-width: 480px){ 
-    .team.conteiner {
+    .team .conteiner {
     width: 480px;
           }}
 
@@ -48,4 +49,14 @@
 
 .team-list__img {
     display: block;
+    width: 450px;
+    height: 460px;
 }
+
+/* Limit the bottom padding styles to 0-767 pixels */
+
+/* Tablet styles */
+
+/* Limit border styles to 768-1023 pixels */
+
+/* Desktop styles */

@@ -1,10 +1,12 @@
+ /* Base container and element styles for mobile devices */
+
 .clients {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 @media (min-width: 480px){ 
-    .clients {
+    .clients .conteiner{
     width: 480px;
           }}
 
@@ -34,10 +36,6 @@
     }
 }
 
-
-
-
-
 .clients-list__link {
     fill: #AFB1B8;
     width: 210px;
@@ -49,8 +47,6 @@
     justify-content: center; 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
-
   &:hover, 
   &:focus {
   color: var(--blue-color);
@@ -60,3 +56,11 @@
 }
 
 }
+
+/* Limit the bottom padding styles to 0-767 pixels */
+
+/* Tablet styles */
+
+/* Limit border styles to 768-1023 pixels */
+
+/* Desktop styles */

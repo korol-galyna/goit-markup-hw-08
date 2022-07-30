@@ -8,6 +8,7 @@
   --bg-color-second: #f5f4fa;
 }
 
+/* Base container and element styles for mobile devices */
 body {
   color: var(--black-color);
   background-color: var(--white-color);
@@ -17,10 +18,16 @@ body {
 }
 
 .conteiner {
+  max-width: 1600px;
+  min-width: 320px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  /* Limit the bottom padding styles to 0-767 pixels */
+  /* Tablet styles */
+  /* Limit border styles to 768-1023 pixels */
+  /* Desktop styles */
 }
 
 .second-title {
@@ -72,6 +79,7 @@ body {
   letter-spacing: 0.06em;
 }
 .third-title--footer {
+  text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 20px;
@@ -89,9 +97,6 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   color: var(--blue-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 .logo--footer-style {
   padding-top: 0px;
@@ -204,13 +209,6 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
-.social-list--footer {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 93px;
-  padding-right: 0px;
-  padding-left: 0px;
-}
 
 .social-list__item:not(:last-child) {
   margin-right: 10px;
@@ -259,14 +257,20 @@ body {
   fill: var(--white-color);
 }
 
+/* Base container and element styles for mobile devices */
 .footer {
   background-color: var(--bg-color-first);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+@media (min-width: 480px) {
+  .footer .conteiner {
+    width: 480px;
+  }
+}
 .address-footer {
-  margin-right: 70px;
+  text-align: center;
 }
 
 .footer-address__list {
@@ -316,9 +320,7 @@ body {
 
 /**Form*/
 .form-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
 }
 
 .form-footer__input {
@@ -410,6 +412,10 @@ body {
           justify-content: center;
 }
 
+/* Limit the bottom padding styles to 0-767 pixels */
+/* Tablet styles */
+/* Limit border styles to 768-1023 pixels */
+/* Desktop styles */
 .header {
   border-bottom: 1px solid #ECECEC;
   display: none;
@@ -943,13 +949,14 @@ body {
   padding: 63px 23px;
 }
 
+/* Base container and element styles for mobile devices */
 .clients {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 @media (min-width: 480px) {
-  .clients {
+  .clients .conteiner {
     width: 480px;
   }
 }
@@ -1005,13 +1012,18 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Limit the bottom padding styles to 0-767 pixels */
+/* Tablet styles */
+/* Limit border styles to 768-1023 pixels */
+/* Desktop styles */
+/* Base container and element styles for mobile devices */
 .features {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-@media (min-width: 480px) {
-  .feature.conteiner {
+@media screen and (min-width: 480px) {
+  .features .conteiner {
     width: 480px;
   }
 }
@@ -1024,7 +1036,6 @@ body {
 }
 
 .features-list__item {
-  width: 450px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1049,13 +1060,18 @@ body {
   width: 450px;
   height: 120px;
   background-color: var(--bg-color-second);
-  padding: 25px 100px;
+  padding: 25px 190px;
 }
 
+/* Limit the bottom padding styles to 0-767 pixels */
+/* Tablet styles */
+/* Limit border styles to 768-1023 pixels */
+/* Desktop styles */
+/* Base container and element styles for mobile devices */
 .hero-overlay {
   min-height: 400px;
-  padding-bottom: 118px;
-  padding-top: 118px;
+  min-width: 320px;
+  padding: 118px 60px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -1067,11 +1083,6 @@ body {
   background-size: cover;
 }
 
-@media (min-width: 480px) {
-  .section-hero.hero-overlay {
-    width: 480px;
-  }
-}
 .first-title {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -1086,6 +1097,20 @@ body {
   text-align: center;
 }
 
+@media screen and (min-width: 480px) {
+  .hero-overlay {
+    width: 480px;
+  }
+}
+/* Limit the bottom padding styles to 0-767 pixels */
+/* Tablet styles */
+/* Limit border styles to 768-1023 pixels */
+/* Desktop styles */
+@media (min-width: 480px) {
+  .section-hero.hero-overlay {
+    width: 480px;
+  }
+}
 /**Mobile**/
 .portfolio-section {
   padding-top: 94px;
@@ -1109,6 +1134,7 @@ body {
   margin-right: 8px;
 }
 
+/* Base container and element styles for mobile devices */
 .team {
   background-color: var(--bg-color-second);
   padding-bottom: 60px;
@@ -1116,7 +1142,7 @@ body {
 }
 
 @media (min-width: 480px) {
-  .team.conteiner {
+  .team .conteiner {
     width: 480px;
   }
 }
@@ -1155,8 +1181,14 @@ body {
 
 .team-list__img {
   display: block;
+  width: 450px;
+  height: 460px;
 }
 
+/* Limit the bottom padding styles to 0-767 pixels */
+/* Tablet styles */
+/* Limit border styles to 768-1023 pixels */
+/* Desktop styles */
 @media (max-width: 767px) {
   .works {
     display: none;

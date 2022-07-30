@@ -1,13 +1,11 @@
   
+/* Base container and element styles for mobile devices */
+
 .hero-overlay {
     min-height: 400px;
-    padding-bottom:118px;
-    padding-top:118px;
-
-    // padding-bottom:200px;
-    // padding-top:200px;
+    min-width: 320px;
+    padding: 118px 60px;
     text-align: center;
-    // height: 1600px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(
@@ -21,17 +19,11 @@
     background-size: cover;
 }
 
-@media (min-width: 480px){ 
-    .section-hero.hero-overlay {
-    width: 480px;
-          }}
-
-          
 .first-title {
     margin-top: 0px;
     margin-bottom: 30px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 900;
@@ -41,5 +33,37 @@
     text-align: center;
     
 }
+
+@media screen and (min-width: 480px) {
+    .hero-overlay {
+      width: 480px;
+    }
+  }
+
+
+/* Limit the bottom padding styles to 0-767 pixels */
+
+/* Tablet styles */
+
+/* Limit border styles to 768-1023 pixels */
+
+/* Desktop styles */
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 480px){ 
+    .section-hero.hero-overlay {
+    width: 480px;
+          }}
+
+          
+
     /**Mobile**/
 
