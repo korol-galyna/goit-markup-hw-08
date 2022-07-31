@@ -1,10 +1,11 @@
   
-/*BASE STYLES, MOBILE DEVICES*/
+/*BASE STYLES*/
 
 .hero-overlay {
-    // height: 400px;
-    width: 480px;
-    padding: 118px 60px;
+    height: 400px;
+    width: 320px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -19,11 +20,6 @@
     background-size: cover;
 }
 
-@media screen and (min-width: 480px) {
-  .hero-overlay {
-    width: 480px;
-  }}
-
 .first-title {
     margin-top: 0px;
     margin-bottom: 30px;
@@ -37,6 +33,16 @@
     letter-spacing: 0.06em;
     text-align: center;  
 }
+
+/* MOBILE DEVICES*/
+
+@media screen and (min-width: 480px) {
+  .hero-overlay {
+    width: 480px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+  }}
 
 /*TABLET DEVICES*/
      

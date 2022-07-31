@@ -1,16 +1,10 @@
- /* Base container and element styles for mobile devices */
+/*BASE STYLES*/
 
 .footer {
     background-color: var(--bg-color-first);
     padding-top: 60px;
     padding-bottom: 60px; 
 }
-
-@media (min-width: 480px){ 
-    .footer .conteiner{
-    width: 480px;
-          }}
-
 
 .address-footer {
     // margin-right: 70px;
@@ -74,7 +68,7 @@
 
 .form-footer__input {
     margin-bottom: 20px;
-    width: 450px;
+    width: 290px;
     height: 50px ;
     margin-right: 12px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -109,11 +103,21 @@ color: rgba(255, 255, 255, 0.6);
     justify-content: center;
 }
 
+/* MOBILE DEVICES*/
 
-/* Limit the bottom padding styles to 0-767 pixels */
+@media (min-width: 480px){ 
+    .footer .conteiner{
+    width: 480px;
+          }
+.form-footer__input {
+    width: 450px;
+        
+        }}
 
-/* Tablet styles */
 
-/* Limit border styles to 768-1023 pixels */
 
-/* Desktop styles */
+
+
+/*TABLET DEVICES*/
+/*DESKTOP DEVICES*/
+
