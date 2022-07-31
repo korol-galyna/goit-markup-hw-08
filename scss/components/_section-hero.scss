@@ -1,9 +1,9 @@
   
-/* Base container and element styles for mobile devices */
+/*BASE STYLES, MOBILE DEVICES*/
 
 .hero-overlay {
-    min-height: 400px;
-    min-width: 320px;
+    // height: 400px;
+    width: 480px;
     padding: 118px 60px;
     text-align: center;
     margin-left: auto;
@@ -19,6 +19,11 @@
     background-size: cover;
 }
 
+@media screen and (min-width: 480px) {
+  .hero-overlay {
+    width: 480px;
+  }}
+
 .first-title {
     margin-top: 0px;
     margin-bottom: 30px;
@@ -30,40 +35,16 @@
     font-size: 26px;
     line-height: 1.62;
     letter-spacing: 0.06em;
-    text-align: center;
-    
+    text-align: center;  
 }
 
-@media screen and (min-width: 480px) {
-    .hero-overlay {
-      width: 480px;
-    }
-  }
+/*TABLET DEVICES*/
+     
+ @media screen and (min-width: 768px) {
+  .hero-overlay {
+   width: 768px; 
+   padding: 118px 204px;
+ }}
 
 
-/* Limit the bottom padding styles to 0-767 pixels */
-
-/* Tablet styles */
-
-/* Limit border styles to 768-1023 pixels */
-
-/* Desktop styles */
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 480px){ 
-    .section-hero.hero-overlay {
-    width: 480px;
-          }}
-
-          
-
-    /**Mobile**/
-
+/*DESKTOP DEVICES*/

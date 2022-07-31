@@ -1,4 +1,5 @@
-/* Base container and element styles for mobile devices */
+/* Base styles, mobile devices */
+
 .team {
     background-color: var(--bg-color-second);
     padding-bottom: 60px;
@@ -9,8 +10,7 @@
     .team .conteiner {
     width: 480px;
           }}
-
-          
+      
 .team-list {
     // display:flex;
     text-decoration: none;
@@ -25,12 +25,9 @@
     border-radius: 0px 0px 4px 4px;
     text-align: center;
 
-
     &:not(:last-child) {
     margin-bottom: 30px; 
-}
-
-}
+}}
 
 .team-list__card {
     padding-top: 30px;
@@ -53,10 +50,7 @@
     height: 460px;
 }
 
-/* Limit the bottom padding styles to 0-767 pixels */
+/* Tablet devices */
 
-/* Tablet styles */
 
-/* Limit border styles to 768-1023 pixels */
 
-/* Desktop styles */
