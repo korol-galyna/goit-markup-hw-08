@@ -896,6 +896,7 @@ body {
   margin-bottom: 40px;
 }
 
+/*BASE STYLES*/
 .works-portfolio {
   display: block;
   text-decoration: none;
@@ -938,7 +939,7 @@ body {
   margin-bottom: 0px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 
@@ -949,6 +950,8 @@ body {
 
 .thumb-card__img {
   display: block;
+  width: 290px;
+  height: 190px;
 }
 
 .thumb {
@@ -973,6 +976,18 @@ body {
   padding: 63px 23px;
 }
 
+/* MOBILE DEVICES*/
+@media screen and (min-width: 480px) {
+  .portfolio-section .conteiner {
+    width: 480px;
+  }
+  .thumb-card__img {
+    width: 450px;
+    height: 294px;
+  }
+}
+/*TABLET DEVICES*/
+/*DESKTOP DEVICES*/
 /*BASE STYLES*/
 .clients {
   padding-top: 60px;
@@ -1176,16 +1191,12 @@ body {
   }
 }
 /*DESKTOP DEVICES*/
+/*BASE STYLES*/
 .portfolio-section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 480px) {
-  .portfolio-section .conteiner {
-    width: 480px;
-  }
-}
 .navigation-portfolio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1210,6 +1221,14 @@ body {
   margin-bottom: 15px;
 }
 
+/* MOBILE DEVICES*/
+@media screen and (min-width: 480px) {
+  .portfolio-section .conteiner {
+    width: 480px;
+  }
+}
+/*TABLET DEVICES*/
+/*DESKTOP DEVICES*/
 /*BASE STYLES*/
 .team {
   background-color: var(--bg-color-second);
