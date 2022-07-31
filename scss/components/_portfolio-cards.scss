@@ -93,11 +93,31 @@
     height: 294px;
     }
 
-  }
-
-
-
-
+}
 
 /*TABLET DEVICES*/
+
+@media screen and (min-width: 768px) {
+    .portfolio-section .conteiner {
+     width: 768px; 
+}
+    
+.thumb-card__img {
+    width: 354px;
+    height: 294px;
+}
+
+.portfolio-card {
+    width: 354px;
+}
+
+.works-portfolio__item{
+    margin-bottom: 0px;
+}
+
+
+}
+
+
+
 /*DESKTOP DEVICES*/
