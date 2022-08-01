@@ -55,10 +55,29 @@
 }
 
 .portfolio-card--style:nth-child(-n+2){
-    height: 146px;
+    height: 110px;
 }
 
     }
 
 
 /*DESKTOP DEVICES*/
+@media screen and (min-width: 1200px) {
+    .portfolio-section .conteiner {
+     width: 1200px; }
+    
+.portfolio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }    
+    
+.navigation-portfolio {
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    }
+       
+
+    
+    
+    }

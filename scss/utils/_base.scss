@@ -1,4 +1,4 @@
- /* Base container and element styles for mobile devices */
+ /*BASE STYLES*/
 
  body {
   color: var(--black-color);
@@ -15,35 +15,23 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
 
-/* Limit the bottom padding styles to 0-767 pixels */
 
-/* Tablet styles */
-
-/* Limit border styles to 768-1023 pixels */
-
-/* Desktop styles */
+/*MOBILE DEVICES*/
 
 
 
 
 
-//     &--style {
-//     display: flex;
-// }
+/*TABLET DEVICES*/
 
-// @media screen and (min-width: 480px) {
-//   width: 480px;
-  
-// }
+/*DESKTOP DEVICES*/
 
-// @media screen and (min-width: 768px) {
-//   width: 768px; 
-// }
-
-
-// @media screen and (min-width: 1200px ) {
-//   width: 1600px;
-// }
+@media (min-width: 1200px){ 
+  .conteiner--style{
+  width: 1200px;
+  display: flex;
+}
 
 }

@@ -93,7 +93,6 @@
 
     text-decoration: none;
     
-    // margin-right: 93px;
     // padding-top: 24px;
     // padding-bottom: 24px;
     color: var(--blue-color);
@@ -119,3 +118,14 @@
     {color: var(--white-color);
 }
 }
+
+/*DESKTOP DEVICES*/
+@media (min-width: 1200px){ 
+.logo {
+        margin-right: 93px;
+    }
+
+
+
+}
+    

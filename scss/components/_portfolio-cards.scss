@@ -114,10 +114,21 @@
 .works-portfolio__item{
     margin-bottom: 0px;
 }
-
-
 }
 
 
-
 /*DESKTOP DEVICES*/
+@media screen and (min-width: 1200px) {
+    .portfolio-section .conteiner {
+     width: 1200px; }
+    
+.thumb-card__img {
+    width: 370px;
+    height: 294px;
+}
+       
+.portfolio-card {
+    width: 370px;
+}   
+    
+    }
