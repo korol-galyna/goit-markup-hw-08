@@ -61,11 +61,31 @@
 
 @media screen and (min-width: 768px) {
     .clients .conteiner {
-     width: 768px; }
+     width: 768px; 
+}
 
-
-
+.clients-list__link {
+    width: 226px;
+    height: 92px;
+}
     }
 
 /*DESKTOP DEVICES*/
 
+@media screen and (min-width: 1200px) {
+    .clients .conteiner {
+     width: 1200px; 
+}
+
+.clients-list__link {
+    width: 170px;
+    height: 92px;
+}
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+}

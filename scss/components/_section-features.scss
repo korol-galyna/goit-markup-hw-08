@@ -19,7 +19,7 @@
 
 .features-list__icon {
     margin-bottom: 30px;
-    min-width: 290px;
+    width: 290px;
     height: 120px;
     background-color:var(--bg-color-second);
     
@@ -93,7 +93,36 @@
 
 /*DESKTOP DEVICES*/
 
+@media screen and (min-width: 1200px) {
+    .features .conteiner {
+    width: 1200px; }
+    
 
+.features-list__icon {
+    width: 270px;
+    padding: 25px 100px;
+    gap: 0px; 
+}
+
+.features-list__item:not(:last-child) {
+        margin-right: 30px;
+}    
+ 
+.features-list__item {
+        width: 270px;
+}
+    
+.features-list {
+    gap: 0px;
+}
+
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}   
+
+
+    }
 
  
  

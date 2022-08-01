@@ -84,6 +84,25 @@
 
 /*DESKTOP DEVICES*/
 
-
+@media screen and (min-width: 1200px) {
+    .team .conteiner {
+     width: 1200px; }
+    
+.team-list__img {
+    width: 270px;
+    height: 260px;
+}     
+    
+.team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}   
+    
+.team-list__card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}   
+    
+    }
 
 

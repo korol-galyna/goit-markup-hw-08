@@ -46,6 +46,11 @@ body {
   min-width: 264px;
 }
 
+@media screen and (min-width: 1200px) {
+  .second-title {
+    margin-bottom: 50px;
+  }
+}
 .third-title {
   font-weight: 700;
   font-size: 14px;
@@ -413,18 +418,70 @@ body {
   }
 }
 /*TABLET DEVICES*/
+@media (min-width: 768px) {
+  .footer .conteiner {
+    width: 768px;
+  }
+  .footer-tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 61px;
+  }
+  .address-footer {
+    margin-right: 165px;
+  }
+  .button-primary--footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /*DESKTOP DEVICES*/
+@media (min-width: 1200px) {
+  .footer .conteiner {
+    width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .form-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .social-footer {
+    margin-right: 93px;
+  }
+  .third-title--footer {
+    text-align: left;
+  }
+  .social-footer .third-title--footer {
+    padding-top: 8px;
+  }
+  .footer-tablet {
+    padding-left: 0px;
+  }
+  .address-footer {
+    margin-right: 70px;
+  }
+  .form-footer__input {
+    width: 358px;
+  }
+  .address-footer {
+    text-align: left;
+  }
+  .footer-address__list {
+    margin-bottom: 0px;
+  }
+}
+/*BASE STYLES*/
 .header {
   border-bottom: 1px solid #ECECEC;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-@media (min-width: 480px) {
-  .header .conteiner {
-    width: 480px;
-  }
-}
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -444,6 +501,12 @@ body {
   padding-left: 0px;
 }
 
+/* MOBILE DEVICES*/
+@media (min-width: 480px) {
+  .header .conteiner {
+    width: 480px;
+  }
+}
 @media (min-width: 480px) {
   .header-nav__list {
     display: none;
@@ -602,6 +665,8 @@ body {
   margin-right: 10px;
 }
 
+/*TABLET DEVICES*/
+/*DESKTOP DEVICES*/
 .modal {
   position: absolute;
   top: 50%;
@@ -917,7 +982,7 @@ body {
 .works-portfolio__item:nth-child(3n) {
   margin-right: 0px;
 }
-.works-portfolio__item:nth-last-child(-n+3) {
+.works-portfolio__item:nth-last-child {
   margin-bottom: 0px;
 }
 .works-portfolio__item:hover .thumb {
@@ -1071,8 +1136,25 @@ body {
   .clients .conteiner {
     width: 768px;
   }
+  .clients-list__link {
+    width: 226px;
+    height: 92px;
+  }
 }
 /*DESKTOP DEVICES*/
+@media screen and (min-width: 1200px) {
+  .clients .conteiner {
+    width: 1200px;
+  }
+  .clients-list__link {
+    width: 170px;
+    height: 92px;
+  }
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 /*BASE STYLES*/
 .features-list {
   margin-top: 0px;
@@ -1093,7 +1175,7 @@ body {
 
 .features-list__icon {
   margin-bottom: 30px;
-  min-width: 290px;
+  width: 290px;
   height: 120px;
   background-color: var(--bg-color-second);
   display: -webkit-box;
@@ -1159,6 +1241,29 @@ body {
   }
 }
 /*DESKTOP DEVICES*/
+@media screen and (min-width: 1200px) {
+  .features .conteiner {
+    width: 1200px;
+  }
+  .features-list__icon {
+    width: 270px;
+    padding: 25px 100px;
+    gap: 0px;
+  }
+  .features-list__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .features-list__item {
+    width: 270px;
+  }
+  .features-list {
+    gap: 0px;
+  }
+  .features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 /*BASE STYLES*/
 .hero-overlay {
   height: 400px;
@@ -1206,6 +1311,16 @@ body {
   }
 }
 /*DESKTOP DEVICES*/
+@media screen and (min-width: 1200px) {
+  .hero-overlay {
+    width: 1200px;
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /*BASE STYLES*/
 .portfolio-section {
   padding-top: 60px;
@@ -1348,6 +1463,23 @@ body {
   }
 }
 /*DESKTOP DEVICES*/
+@media screen and (min-width: 1200px) {
+  .team .conteiner {
+    width: 1200px;
+  }
+  .team-list__img {
+    width: 270px;
+    height: 260px;
+  }
+  .team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+  .team-list__card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 @media (max-width: 1199px) {
   .works {
     display: none;
