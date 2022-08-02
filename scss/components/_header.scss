@@ -3,6 +3,8 @@
     border-bottom: 1px solid #ECECEC; 
     padding-top: 16px;
     padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .header-nav {
@@ -197,6 +199,61 @@
 
   
 /*TABLET DEVICES*/
+
+@media (min-width: 768px){ 
+    .header .conteiner{
+    width: 768px;
+    align-items: center;
+    
+}
+
+.header-nav__list {
+    display: flex;
+    margin-left: 84px;
+    margin-right: 69px;
+}   
+
+.header-contact {
+    display: block;
+    
+}
+}
+
+.button-menu {
+    display: none;
+}
+
+.header-contact__item {
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: block;
+    
+    justify-content: left;
+    
+    &:not(:last-child){
+        margin-right: 0px;
+    }
+
+    &:not(:last-child){
+        margin-bottom: 10px;
+    }
+}
+
+.header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.header-contact__link {
+    justify-content: left;
+}
+
+.header-contact__icon-mail,
+.header-contact__icon-tel {
+    margin-right: 8px;
+}
 
 /*DESKTOP DEVICES*/
 

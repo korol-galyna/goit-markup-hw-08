@@ -28,6 +28,14 @@ body {
 
 /*MOBILE DEVICES*/
 /*TABLET DEVICES*/
+@media (min-width: 768px) {
+  .conteiner--style {
+    width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*DESKTOP DEVICES*/
 @media (min-width: 1200px) {
   .conteiner--style {
@@ -115,6 +123,7 @@ body {
   color: var(--white-color);
 }
 
+/*TABLET DEVICES*/
 /*DESKTOP DEVICES*/
 @media (min-width: 1200px) {
   .logo {
@@ -493,6 +502,8 @@ body {
   border-bottom: 1px solid #ECECEC;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .header-nav {
@@ -696,6 +707,61 @@ body {
   }
 }
 /*TABLET DEVICES*/
+@media (min-width: 768px) {
+  .header .conteiner {
+    width: 768px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header-nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 84px;
+    margin-right: 69px;
+  }
+  .header-contact {
+    display: block;
+  }
+}
+.button-menu {
+  display: none;
+}
+
+.header-contact__item {
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: block;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+.header-contact__item:not(:last-child) {
+  margin-right: 0px;
+}
+.header-contact__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.header-contact__link {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.header-contact__icon-mail,
+.header-contact__icon-tel {
+  margin-right: 8px;
+}
+
 /*DESKTOP DEVICES*/
 @media (min-width: 1200px) {
   .header .conteiner {
