@@ -199,12 +199,23 @@
     position: absolute;
 }
 
-.button-menu:hover .icon-menu,
-.button-menu:focus .icon-menu {
+.button-menu:hover,
+.button-close:hover,
+.button-menu:focus,
+.button-close:focus {
     fill: var(--blue-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
+  
+.modal-menu__link:hover,
+.modal-menu__link:focus {
+    color: var(--blue-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+
+
 .backdrop-header {
     min-width: 320px;
     width: 100%;

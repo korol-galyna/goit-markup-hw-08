@@ -55,7 +55,7 @@
 }
 
 .portfolio-card--style:nth-child(-n+2){
-    height: 110px;
+    height: 146px;
 }
 
     }
@@ -69,15 +69,15 @@
 .portfolio-section {
     padding-top: 94px;
     padding-bottom: 94px;
-    }    
+}    
     
 .navigation-portfolio {
     justify-content: center;
     margin-bottom: 50px;
+}
     
-    }
+.portfolio-card--style:nth-child(-n+2){
+    height: 110px;
+}
        
-
-    
-    
     }

@@ -13,13 +13,12 @@
     <!--Header-->
 
     <header class="header">
-      <div class="conteiner conteiner--style">
 
+      <div class="conteiner conteiner--style">
 
       <nav class="header-nav">
 
-        <a class="logo" href="index.html"> Web 
-          <span class="logo__studio"> Studio</span></a>
+        <a class="logo" href="index.html">Web<span class="logo__studio">Studio</span></a>
 
         <ul class="header-nav__list">
           <li class="header-nav__item">
@@ -30,10 +29,54 @@
           <li class="header-nav__item">
             <a class="header-nav__link" href="#" >Контакты</a></li>
         </ul>
-      </nav>
+
+        <button type="button" class="button-menu" data-menu-button>
+          <svg width="24px" height="16px">
+          <use class="icon-menu" href="./images/icons.svg#icon-menu_24px"></use>
+          </svg>
+        </button>
+        
+<!--выпадающее меню-->
+
+
+        <div class="backdrop-header" data-menu>
+
+            <button class="button-close" type="button" data-menu-button-close >
+              <svg 
+              width="24px" 
+              height="16px">
+              <use href="./images/icons.svg#icon-close_24px">
+              </use>
+            </svg>
+          </button>
+          <div class="modal-menu">
+            <ul class="modal-menu__list list">
+              <li class="modal-menu__item"><a class="modal-menu__link link" href="index.html">Студия</a></li>
+              <li class="modal-menu__item"><a class="modal-menu__link link" href="portfolio.html">Портфолио</a></li>
+              <li class="modal-menu__item"><a class="modal-menu__link link" href="#">Контакты</a></li>
+            </ul>
+
+            <ul class="modal-menu__list-contact list">
+              <li class="modal-menu__item-contact"><a class="modal-menu__link-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+              <li class="modal-menu__item-contact-mail"><a class="modal-menu__link-contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+    
+          <ul class="modal-menu__list-socials list">
+            <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.instagram.com/">Instagram</a></li>
+            <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://twitter.com/">Twitter</a></li>
+            <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.facebook.com/">Facebook</a></li>
+            <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.linkedin.com/">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+          </nav>
+        
+
+
+      
 
  <!--contact-->
-
+  
       <ul class="header-contact">
           <li class="header-contact__item">
           <a class="header-contact__link" href="mailto:info@devstudio.com">
@@ -49,8 +92,10 @@
           </svg>+38 096 111 11 11</a>
          </li>
       </ul>
+    </div>
 
-     </div>
+
+     
         </header>
     <main>
     <!--Секция 5-->
@@ -202,7 +247,9 @@
   </main>
 
   <footer class="footer">
-    <div class="conteiner conteiner--style">
+    <div class="conteiner">
+      <div class="footer-tablet">
+
       <div class="address-footer">
 
         <a class="logo logo--footer-style " href="index.html"> Web 
@@ -257,9 +304,10 @@
         </ul>
       </div>
 
+    </div>
 <!--Footer form-->
 
-<div>
+<div class="forms-footer">
 <h3 class="third-title third-title--footer">Подпишитесь на рассылку</h3>
 
 <form class="form-footer">
@@ -273,10 +321,15 @@
         </svg>
       </button>
     </form>
+
 </div>
+
+
 </div>
  
   </footer>
+  <script src="./js/modal.js"></script>
+  <script src="./js/menu-mobile.js"></script>
 
   </body>
 </html>

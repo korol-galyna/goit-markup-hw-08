@@ -83,17 +83,28 @@
 
 
 /* MOBILE DEVICES*/
+
+
 @media screen and (min-width: 480px) {
     .portfolio-section .conteiner {
       width: 480px;
-    }
+}
+
+.portfolio-card {
+    width: 450px;
+}
 
 .thumb-card__img {
     width: 450px;
     height: 294px;
-    }
+}
+
+.portfolio-card {
+    width: 450px;
+}
 
 }
+
 
 /*TABLET DEVICES*/
 
