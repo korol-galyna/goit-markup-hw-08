@@ -112,6 +112,8 @@
 .clients-list {
     display: flex;
     padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   @media screen and (max-width: 767px) {
     .clients-list {
