@@ -9,6 +9,7 @@
 }
 
 .features-list__text {
+    color: var(--text-color);
     margin-top: 0px;
     margin-bottom: 0px; 
     font-weight: 400;
@@ -19,7 +20,7 @@
 
 .features-list__icon {
     margin-bottom: 30px;
-    width: 290px;
+    // width: 290px;
     height: 120px;
     background-color:var(--bg-color-second);
     
@@ -51,8 +52,8 @@
     width: 480px;
           }  
 
-.features-list__icon {
-    width: 450px;}
+// .features-list__icon {
+//     width: 450px;}
 
 }
 

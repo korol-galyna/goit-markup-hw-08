@@ -41,8 +41,9 @@
 
 .team-list__img {
     display: block;
-    width: 290px;
-    height: 295px;
+    max-width: 100%;
+    width: 450px;
+    
         } 
 
 /* MOBILE DEVICES*/
@@ -52,11 +53,11 @@
     width: 480px;
           }
         
-.team-list__img {
-    display: block;
-    width: 450px;
-    height: 460px;
-        }     
+// .team-list__img {
+//     display: block;
+//     width: 450px;
+//     height: 460px;
+//         }     
 
 }
 

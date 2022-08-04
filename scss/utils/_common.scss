@@ -6,8 +6,8 @@
     // min-width: 376px;
 
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-size: 28px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
 
@@ -21,7 +21,11 @@
 @media screen and (min-width: 1200px) {
     .second-title {
     margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.16;
 }
+
+
 
 }
     
@@ -63,9 +67,6 @@
     line-height: 2;
     letter-spacing: 0.06em;
 
-    @media screen {
-        
-    }
   }
 
     &--footer {
@@ -74,6 +75,10 @@
     color: var(--white-color);
     margin-bottom: 20px;
 }
+
+
+
+
 
 }
 
@@ -92,22 +97,19 @@
     letter-spacing: 0.03em;
 
     text-decoration: none;
-    
-    // padding-top: 24px;
-    // padding-bottom: 24px;
     color: var(--blue-color);
-    // display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
     
+@media (min-width: 480px){ 
+    .logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+            }
 
 
 
-//     &--footer-style {
-//     padding-top: 0px;
-//     padding-bottom:0px;
-//     margin-bottom: 20px;
-//     margin-right: 0px;
-// }
-}
+}}
 
 
 .logo__studio {

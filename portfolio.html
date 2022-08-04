@@ -39,36 +39,41 @@
 <!--выпадающее меню-->
 
 
-        <div class="backdrop-header" data-menu>
+<div class="backdrop-header" data-menu>
 
-            <button class="button-close" type="button" data-menu-button-close >
-              <svg 
-              width="24px" 
-              height="16px">
-              <use href="./images/icons.svg#icon-close_24px">
-              </use>
-            </svg>
-          </button>
-          <div class="modal-menu">
-            <ul class="modal-menu__list list">
-              <li class="modal-menu__item"><a class="modal-menu__link link" href="index.html">Студия</a></li>
-              <li class="modal-menu__item"><a class="modal-menu__link link" href="portfolio.html">Портфолио</a></li>
-              <li class="modal-menu__item"><a class="modal-menu__link link" href="#">Контакты</a></li>
-            </ul>
+  <button class="button-close" type="button" data-menu-button-close >
+    <svg 
+    width="24px" 
+    height="16px">
+    <use href="./images/icons.svg#icon-close_24px">
+    </use>
+  </svg>
+</button>
 
-            <ul class="modal-menu__list-contact list">
-              <li class="modal-menu__item-contact"><a class="modal-menu__link-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-              <li class="modal-menu__item-contact-mail"><a class="modal-menu__link-contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          </ul>
-    
-          <ul class="modal-menu__list-socials list">
-            <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.instagram.com/">Instagram</a></li>
-            <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://twitter.com/">Twitter</a></li>
-            <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.facebook.com/">Facebook</a></li>
-            <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.linkedin.com/">LinkedIn</a></li>
-          </ul>
-        </div>
-      </div>
+
+  <ul class="modal-menu__list list">
+    <li class="modal-menu__item"><a class="modal-menu__link link" href="index.html">Студия</a></li>
+    <li class="modal-menu__item"><a class="modal-menu__link link" href="portfolio.html">Портфолио</a></li>
+    <li class="modal-menu__item"><a class="modal-menu__link link" href="#">Контакты</a></li>
+  </ul>
+
+  <div>
+  <ul class="modal-menu__list-contact list">
+    <li class="modal-menu__item-contact"><a class="modal-menu__link-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <li class="modal-menu__item-contact-mail"><a class="modal-menu__link-contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+</ul>
+
+<ul class="modal-menu__list-socials list">
+  <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.instagram.com/">Instagram</a></li>
+  <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://twitter.com/">Twitter</a></li>
+  <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.facebook.com/">Facebook</a></li>
+  <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.linkedin.com/">LinkedIn</a></li>
+</ul>
+</div>
+
+
+
+</div>
           </nav>
         
 
@@ -115,8 +120,16 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.1.jpg" 
-              alt="Технокряк">
+
+                <img class="thumb-card__img"
+            srcset="./images/img.jpg/img5.1mob.jpg 1x, ./images/img.jpg/img5.1.2mob.jpg 2x"
+            src="./images/img.jpg/img5.1mob.jpg"
+            width="450"
+            height="294"
+            alt="Технокряк"
+          />
+
+
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -131,8 +144,16 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.2.jpg" 
-              alt="Постер New Orlean vs Golden Star">
+
+                <img class="thumb-card__img"
+                srcset="./images/img.jpg/img5.2mob.jpg 1x, ./images/img.jpg/img5.2.2mob.jpg 2x"
+                src="./images/img.jpg/img5.2mob.jpg"
+                width="450"
+                height="294"
+                alt="Постер New Orlean vs Golden Star"
+              />
+
+
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -145,8 +166,16 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.3.jpg" 
-              alt="Ресторан Seafood">
+
+                <img class="thumb-card__img"
+                srcset="./images/img.jpg/img5.3mob.jpg 1x, ./images/img.jpg/img5.3.2mob.jpg 2x"
+                src="./images/img.jpg/img5.3mob.jpg"
+                width="450"
+                height="294"
+                alt="Ресторан Seafood"
+              />
+
+
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -159,8 +188,15 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.4.jpg" 
-              alt="Проект Prime">
+
+                <img class="thumb-card__img"
+                srcset="./images/img.jpg/img5.4mob.jpg 1x, ./images/img.jpg/img5.4.2mob.jpg 2x"
+                src="./images/img.jpg/img5.4mob.jpg"
+                width="450"
+                height="294"
+                alt="Проект Prime"
+              />
+
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -173,8 +209,16 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.5.jpg" 
-              alt="Проект Boxes">
+
+                <img class="thumb-card__img"
+                srcset="./images/img.jpg/img5.5mob.jpg 1x, ./images/img.jpg/img5.5.2mob.jpg 2x"
+                src="./images/img.jpg/img5.5mob.jpg"
+                width="450"
+                height="294"
+                alt="Проект Boxes"
+              />
+
+             
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -188,8 +232,15 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.6.jpg" 
-              alt="Inspiration has no Borders">
+
+                <img class="thumb-card__img"
+                srcset="./images/img.jpg/img5.6mob.jpg 1x, ./images/img.jpg/img5.6.2mob.jpg 2x"
+                src="./images/img.jpg/img5.6mob.jpg"
+                width="450"
+                height="294"
+                alt="Inspiration has no Borders"
+              />
+
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -202,8 +253,16 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.7.jpg" 
-              alt="Издание Limited Edition">
+
+                <img class="thumb-card__img"
+                srcset="./images/img.jpg/img5.7mob.jpg 1x, ./images/img.jpg/img5.7.2mob.jpg 2x"
+                src="./images/img.jpg/img5.7mob.jpg"
+                width="450"
+                height="294"
+                alt="Издание Limited Edition"
+              />
+
+             
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -216,8 +275,16 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.8.jpg" 
-              alt="Проект LAB">
+
+                <img class="thumb-card__img"
+                srcset="./images/img.jpg/img5.8mob.jpg 1x, ./images/img.jpg/img5.8.2mob.jpg 2x"
+                src="./images/img.jpg/img5.8mob.jpg"
+                width="450"
+                height="294"
+                alt="Проект LAB"
+              />
+
+
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -230,8 +297,17 @@
 
             <li class="works-portfolio__item">
               <div class="thumb-card">
-              <img class="thumb-card__img" src="./images/img.jpg/img5.9.jpg" 
-              alt="Growing Business">
+
+
+                <img class="thumb-card__img"
+                srcset="./images/img.jpg/img5.9mob.jpg 1x, ./images/img.jpg/img5.9.2mob.jpg 2x"
+                src="./images/img.jpg/img5.9mob.jpg"
+                width="450"
+                height="294"
+                alt="Growing Business"
+              />
+
+          
               <div class="thumb">
                 <p class="thumb__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
               </div>
@@ -311,7 +387,7 @@
 <h3 class="third-title third-title--footer">Подпишитесь на рассылку</h3>
 
 <form class="form-footer">
-  <label for="form-footer__label"></label>
+  <label for="email-label"></label>
   <input class="form-footer__input" type="email" name="email" id="email-label" 
   placeholder="E-mail"/>
 

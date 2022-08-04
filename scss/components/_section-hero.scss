@@ -13,7 +13,7 @@
         to right, 
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url("../images/img.jpg/img 1.1.mobile.jpg");
+        url("../images/img.jpg/img1.1.mobile.jpg");
     background-color: var(--bg-color-first);
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,7 @@
         to right, 
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-    url("../images/img.jpg/img 1.1.2 mobile.jpg");
+    url("../images/img.jpg/img1.1.2mobile.jpg");
     background-size: cover;
   }
 }
@@ -58,8 +58,6 @@
   .hero-overlay {
   // width: 480px;
   height: 400px;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 }
@@ -70,7 +68,7 @@
   .hero-overlay {
   //  width: 768px; 
    height: 400px;
-   padding: 118px 204px;}
+}
 }
 
 
@@ -83,7 +81,7 @@
         to right, 
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-  url("../images/img.jpg/img 1.1.tablet.jpg");
+  url("../images/img.jpg/img1.1.tablet.jpg");
   background-size: cover;
 }}
 
@@ -96,7 +94,7 @@
         to right, 
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-    url("../images/img.jpg/img 1.1.2 .tablet.jpg");
+    url("../images/img.jpg/img1.1.2.tablet.jpg");
     background-size: cover;
   }
 }
@@ -109,22 +107,27 @@
   .hero-overlay {
   // min-width: 1200px;
   height: 600px;
-
   padding-top: 200px; 
-  padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;}
+  padding-bottom: 200px;}
+  
+
+.first-title {
+  font-size: 44px;
+  line-height: 1.36;
+
+}
+
 }
 
 @media screen and (min-width: 769px) {
   .hero-overlay {
-  height: 600px;
+  
   background-image: 
   linear-gradient(
         to right, 
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-  url("../images/img.jpg/img 1.1.desktop.jpg");
+  url("../images/img.jpg/img1.1.desktop.jpg");
   background-size: cover;
 }
 
@@ -137,12 +140,11 @@
         to right, 
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-    url("../images/img.jpg/img 1.1.2 .desktop.jpg");
+    url("../images/img.jpg/img1.1.2.desktop.jpg");
     background-size: cover;
   }
   
 }
 
 
- 
 }

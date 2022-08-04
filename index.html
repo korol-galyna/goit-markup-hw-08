@@ -50,13 +50,15 @@
               </use>
             </svg>
           </button>
-          <div class="modal-menu">
+
+          
             <ul class="modal-menu__list list">
               <li class="modal-menu__item"><a class="modal-menu__link link" href="index.html">Студия</a></li>
               <li class="modal-menu__item"><a class="modal-menu__link link" href="portfolio.html">Портфолио</a></li>
               <li class="modal-menu__item"><a class="modal-menu__link link" href="#">Контакты</a></li>
             </ul>
 
+            <div>
             <ul class="modal-menu__list-contact list">
               <li class="modal-menu__item-contact"><a class="modal-menu__link-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
               <li class="modal-menu__item-contact-mail"><a class="modal-menu__link-contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -69,6 +71,9 @@
             <li class="modal-menu__list-socials"><a class="modal-menu__link-socials link" href="https://www.linkedin.com/">LinkedIn</a></li>
           </ul>
         </div>
+
+
+        
       </div>
           </nav>
         
@@ -230,24 +235,44 @@
         <ul class="works__list">
 
           <li class="works__item">
-            <img class="works__img" src="./images/img.jpg/img3.1.jpg" 
-            width="370" height="294" alt="клавиатура"/>
+            <img class="works__img"
+                    srcset="./images/img.jpg/img3.1mob.jpg 1x, ./images/img.jpg/img3.1.2mob.jpg 2x"
+                    src="./images/img.jpg/img3.1mob.jpg"
+                    width="370"
+                    height="294"
+                    alt="Десктопные приложения"
+                  />
+
             <div class="works__card">
               <h3 class="third-title third-title--works">Десктопные приложения</h3>
             </div>
           </li>
 
           <li class="works__item">
-            <img  class="works__img" src="./images/img.jpg/img3.2.jpg" 
-            width="370" height="294" alt="ноутбук" />
+
+            <img class="works__img"
+            srcset="./images/img.jpg/img3.2mob 1x, ./images/img.jpg/img3.3.2mob.jpg 2x"
+            src="./images/img.jpg/img3.2mob.jpg"
+            width="370"
+            height="294"
+            alt="ноутбук"
+          />
+
             <div class="works__card">
               <h3 class="third-title third-title--works">Мобильные приложения</h3>
             </div>
           </li>
 
           <li class="works__item">
-            <img class="works__img" src="./images/img.jpg/img3.3.jpg" 
-            width="370" height="294" alt="планшет" />
+
+            <img class="works__img"
+            srcset="./images/img.jpg/img3.3mob.jpg 1x, ./images/img.jpg/img3.3.2mob.jpg 2x"
+            src="./images/img.jpg/img3.3mob.jpg"
+            width="370"
+            height="294"
+            alt="планшет"
+          />
+
             <div class="works__card">
               <h3 class="third-title third-title--works">Дизайнерские решения</h3>
             </div>
@@ -267,8 +292,14 @@
           <!--Карточка 1-->
 
           <li class="team-list__item">
-            <img class="team-list__img" src="./images/img.jpg/img4.1.jpg" 
-             alt="наша команда" />
+
+            <img class="team-list__img"
+            srcset="./images/img.jpg/img4.1mob.jpg 1x, ./images/img.jpg/img4.1.2mob.jpg 2x"
+            src="./images/img.jpg/img4.1mob.jpg"
+            
+            alt="наша команда"
+          />
+
             <div class="team-list__card">
             <h3 class="third-title third-title--team">Игорь Демьяненко</h3>
             <p class="team-list__text">Product Designer</p>
@@ -310,8 +341,14 @@
                <!--Карточка 2-->
 
           <li class="team-list__item">
-            <img class="team-list__img" src="./images/img.jpg/img4.2.jpg" 
-            alt="наша команда" />
+
+            <img class="team-list__img"
+            srcset="./images/img.jpg/img4.2mob.jpg 1x, ./images/img.jpg/img4.2.2mob.jpg 2x"
+            src="./images/img.jpg/img4.2mob.jpg"
+            
+            alt="наша команда"
+          />
+
             <div class="team-list__card">
               <h3 class="third-title third-title--team">Ольга Репина</h3>
             <p class="team-list__text">Frontend Developer</p>
@@ -360,8 +397,14 @@
           <!--Карточка 3-->
 
           <li class="team-list__item">
-            <img class="team-list__img" src="./images/img.jpg/img4.3.jpg" 
-            alt="наша команда" />
+
+            <img class="team-list__img"
+            srcset="./images/img.jpg/img4.3mob.jpg 1x, ./images/img.jpg/img4.3.2mob.jpg 2x"
+            src="./images/img.jpg/img4.3mob.jpg"
+            
+            alt="наша команда"
+          />
+
             <div class="team-list__card">
               <h3 class="third-title third-title--team">Николай Тарасов</h3>
             <p class="team-list__text">Marketing</p>
@@ -408,8 +451,14 @@
           <!--Карточка 4-->
 
           <li class="team-list__item">
-            <img class="team-list__img" src="./images/img.jpg/img4.4.jpg" 
-            alt="наша команда" />
+
+             <img class="team-list__img"
+            srcset="./images/img.jpg/img4.4mob.jpg 1x, ./images/img.jpg/img4.4.2mob.jpg 2x"
+            src="./images/img.jpg/img4.4mob.jpg"
+            
+            alt="наша команда"
+          />
+
             <div class="team-list__card">
               <h3 class="third-title third-title--team">Михаил Ермаков</h3>
             <p class="team-list__text">UI Designer</p>
@@ -570,7 +619,7 @@
   <h3 class="third-title third-title--footer">Подпишитесь на рассылку</h3>
 
   <form class="form-footer">
-    <label for="form-footer__label"></label>
+    <label for="email-label"></label>
     <input class="form-footer__input" type="email" name="email" id="email-label" 
     placeholder="E-mail"/>
 
